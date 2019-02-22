@@ -1,0 +1,220 @@
+<html>
+
+<head>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 18px;
+			background-color: #f2f1ef;
+			color: #212121;
+		}
+
+		.content {
+			margin: 0 auto;
+			max-width: 800px;
+			margin-top: 25px;
+		}
+
+		.list {
+			margin-top: 10px;
+		}
+
+		.block {
+			display: flex;
+			align-items: center;
+			padding: 10px;
+		}
+
+		.block:hover {
+			background: #d4d4d4;
+		}
+
+		.block__icon {
+			font-size: 56px;
+			flex-basis: 80px;
+			padding: 5px;
+		}
+
+		.block__info {
+			flex: 1;
+			padding: 5px;
+		}
+
+		.block__info h1 {
+			margin: 0;
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		.block__info p {
+			margin: 0;
+		}
+
+		.block--blog { color: #DA8330; }
+		.block--github { color: black }
+		.block--twitter { color: #4C9FEB; }
+		.block--instagram i { 
+			background: linear-gradient(45deg, #EAB770, #9237A5);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		.block--psn i { 
+			background: linear-gradient(45deg, #1B438B, #3B80BD);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		.block--nintendo { color: #D32D26; }
+		.block--spotify { color: #57B660; }
+
+		.list a {
+			text-decoration: none;
+			color: #212121;
+		}
+
+		.list a:hover {
+			text-decoration: none;
+		}
+
+		a {
+			color: #d2527f;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		footer {
+			text-align: center;
+			font-size: 15px;
+			margin-top: 30px;
+			padding: 20px;
+			border-top: 1px solid #dadada;
+		}
+	</style>
+</head>	
+
+<body>
+
+	<div class="content">
+
+		<div class="list">
+			<a href="https://robblewis.me/">
+				<div class="block">
+					<div class="block__icon block--blog">
+						<i class="fas fa-signature"></i>
+					</div>
+
+					<div class="block__info">
+						<h1>robblewis.me</h1>
+						<p>A Proper Website™ with a blog and stuff.</p>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="list">
+			<a href="https://github.com/rmlewisuk">
+				<div class="block">
+					<div class="block__icon block--github">
+						<i class="fab fa-github"></i>
+					</div>
+
+					<div class="block__info">
+						<h1>Github</h1>
+						<p>Code and stuff.</p>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="list">
+			<a href="https://twitter.com/rmlewisuk">
+				<div class="block">
+					<div class="block__icon block--twitter">
+						<i class="fab fa-twitter"></i>
+					</div>
+
+					<div class="block__info">
+						<h1>Twitter</h1>
+						<p>Hot Takes™ and terrible jokes.</p>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="list">
+			<a href="https://www.instagram.com/rmlewisuk/">
+				<div class="block">
+					<div class="block__icon block--instagram">
+						<i class="fab fa-instagram"></i>
+					</div>
+
+					<div class="block__info">
+						<h1>Instagram</h1>
+						<p>Sporadic pretty pictures.</p>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="list">
+			<a>
+				<div class="block">
+					<div class="block__icon block--psn">
+						<i class="fab fa-playstation"></i>
+					</div>
+
+					<div class="block__info">
+						<h1>PSN</h1>
+						<p>Rocket League or GTFO.<br>PSN: <strong>rmlewisuk</strong> / RocketID: <strong>rmlewisuk#9763</strong></p>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="list">
+			<a>
+				<div class="block">
+					<div class="block__icon block--nintendo">
+						<i class="fab fa-nintendo-switch"></i>
+					</div>
+
+					<div class="block__info">
+						<h1>Nintendo Switch</h1>
+						<p>Mario Kart or GTFO. <br>Friend Code: <strong>SW-5633-0258-5413</strong></p>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="list">
+			<a href="https://open.spotify.com/user/21axpeczwbtmslt5dkexklwiy?si=AW_mbQ83S4-OMeoN7i_I3w">
+				<div class="block">
+					<div class="block__icon block--spotify">
+						<i class="fab fa-spotify"></i>
+					</div>
+
+					<div class="block__info">
+						<h1>Spotify</h1>
+						<p>2000s Pop-Punk and as much McFly as I can get.</p>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<footer>
+			Robb Lewis / <a href="https://rmlewis.uk">https://rmlewis.uk</a>
+		</footer>
+	</div>
+
+</body>
+
+</html>
